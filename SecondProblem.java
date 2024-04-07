@@ -3,13 +3,7 @@ package assignment1;
 import java.util.Scanner;
 
 public class SecondProblem {
-    /*
-     *This method returns the average number from an array.
-     *Time complexity: 0(n), where n is length of input array.
-     *Complexity class: linear
-     *@param arr The array of integers where we need to find average of all of them.
-     *@return sum/arr.length Sum of all numbers we divide to length of array
-     */
+
     public static void main(String[] arg){
         double startTime = System.nanoTime();
         double endTime = System.nanoTime();
@@ -24,6 +18,13 @@ public class SecondProblem {
         System.out.println("Time taken " + duration + " milliseconds");
         System.out.println("Avarage number:" + av);
     }
+    /*
+     *This method returns the average number from an array.
+     *Time complexity: 0(n), where n is length of input array.
+     *Complexity class: linear
+     *@param arr The array of integers where we need to find average of all of them.
+     *@return sum/arr.length Sum of all numbers we divide to length of array
+     */
     public static float findAVG(float[] arr){
         if(arr.length == 0){
             System.out.println("Array is empty");
